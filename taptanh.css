@@ -1,0 +1,101 @@
+header{height: 15%; width: 100%; background-color: rgb(255, 255, 255); color: black; align-items: center; display: flex; position: fixed; z-index: 1000; top: 35;}
+nav{background-color: white; width: 100%; height: 5%; color:rgb(6, 6, 6); text-align: center; align-items: center; display: flex; border-bottom:rgb(209, 189, 164) 1px solid; position:fixed; z-index: 1000; top: 180;}
+aside{height: 35%; width: 100%; background-color: rgb(255, 255, 255); color: black; position: relative;}
+article{height: 70%; width: 100%; background-color: rgb(255, 255, 255); color: black;}
+footer{height: 70%; width: 100%; background-color: rgba(207, 124, 88, 1); margin-top: -30;}
+.searching{color: rgb(148, 122, 88); margin-top: 20px; margin-right: 520px; display: block; transition: all 0.1s ease; margin-left: 60px; font-size: 20px; margin-right: 595px;}
+.searching:hover{transform: scale(1.1);}
+.vnd{color: rgb(148, 122, 88); font-size: 17px; margin-left: 290px;}
+.tv{color: rgb(148, 122, 88); font-size: 17px; margin-left: 10px; list-style-type: none; text-decoration: none;}
+.tv a{padding: 16px; text-decoration: none; color: rgb(148, 122, 88);}
+.tv1{list-style-type: none; padding: 10px;}
+.tv1 a{padding: 16px; text-decoration: none; color: azure;}
+.tv1 li{position: relative; padding: 6.75px;}
+.tv1 a:hover{ color: rgb(231, 179, 226); border: pink 1px solid; border-radius: 10px; background-color: aliceblue;}
+.tv1 li:hover .tv{ display: block;}
+.language{ margin-left: 20px; border: rgb(148, 122, 88) 2px solid; color: rgb(148, 122, 88); padding: 10px; font-size: 17px; font-family: 'Times New Roman', Times, serif; border-style: none; display: block;}
+.shopping{color: rgb(148, 122, 88); display: block; transition: all 0.1s ease; margin-left: 20px; font-size: 20px;}
+.shopping a{color: rgb(148, 122, 88);}
+.shopping:hover{ transform: scale(1.1);}
+.logo{ width: 110px; height: 80px; margin-left: 33px; margin-top: 10;}
+.slogan{ text-align: center; margin-left: 675px; margin-top: -22px; color:rgb(139, 105, 63);}
+.sloganhd{ height: 5%; top: 144;}
+.lologan1{ font-size: 18px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;}
+.slogan2{ font-size: 10px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color:rgb(139, 105, 63); top: 50px; display: block; margin-left: 5px}
+.loichuc{ color: rgb(255, 255, 255); font-size: 17px; background-color: rgba(207, 124, 88, 1); height: 5%; top: 0; }
+.loichuc span{ margin-left: 510px; padding: 10;}
+.c1{ display: flex; list-style-type: none; font-size: 17px;}
+.c1 a{ padding: 30px; text-decoration: none; color:rgb(139, 105, 63); transition: all 0.5s ease; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.c1 a:hover{ color: rgb(243, 189, 151);}
+.c1 li:hover .d1{ display: block;}
+.d1{ display: none; padding: 5px; position: absolute; list-style-type: none; top: 37; border:rgb(139, 105, 63) 1px solid; border-radius: 5px; background-color: white;  transition: all 0.5s ease;}
+.d1 li{ background-color: white; width: 230; height: 30; text-align: left;}
+.d1 a{ color:rgb(139, 105, 63); font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 16; transition: all 0.5s ease;}
+.d1 a:hover{ color: rgb(243, 189, 151);}
+.font-mid{ text-align: center; margin-top: 50px;}
+.font-mid span{ font-size: 50px; font-weight: 500; color:rgb(109, 82, 50); margin-top: 300; display: block;}
+.font-mid div{ margin-top: 10; font-weight: 500; font-size: 15; color:rgb(139, 105, 63);}
+.slider-noidung{ height: 85%; width: 100%; position: relative; overflow: hidden;  text-align: center; top: -50;} 
+.menu { position: absolute; left: 0; z-index: 900; width: 100%; bottom: -10;}
+.menu label { cursor: pointer; display: inline-block; width: 16px; height: 16px; background: #fff; border-radius: 50px; margin: 10px; transition: all .3s ease; &:hover {   background: red; }} 
+.slide { width: 100%; height: 100%; position: absolute; top: 0; left: 100%; z-index: 10; padding: 10px; background-size: cover; background-position: 50% 50%; transition: left 0s .75s;}
+[id^="slide"]:checked + .slide { left: 0; z-index: 100; transition: left .65s ease-out;}
+.slide-1 { background-image: url("hinhanh/aside1.webp");}
+.slide-2 { background-image: url("hinhanh/aside2.webp");}
+.slide-3 { background-image: url("hinhanh/aside3.webp");}
+.slide-4 { background-image: url("hinhanh/aside4.jpg");}
+.bst-lfh{ width: 600; font-size: 50px; color: white; display: flex; margin-top: 400px; margin-left: 40;}
+.lfh-more a{ text-decoration: none; color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 22px; border: white 3px solid; padding: 15; border-radius: 5px; margin-right: 1290; margin-top: 20px; margin-left: 60; display: block; transition: all 0.2s ease;}
+.lfh-more a:hover{ transform: scale(1.1);}
+.bor{ position: relative;}
+.bor div{border-bottom: rgb(139, 105, 63) 0.2px solid; content: '';display: block;position: absolute; width: 100%; height: 1px; left: 0; margin-top: -30;}
+.c2{color:rgb(139, 105, 63); margin-left: 640; font-size: 20px; font-weight: bolder; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.c4{  padding: 5;}
+.c4 td{ position: relative;}
+.c4 img{ display: block;    width: 285; border-radius: 10px;margin-left: 5;transition: all 0.5s ease;}
+.c4 img:hover{ transform:scale(1.02);}
+.c4 a{ text-decoration: none;}
+.c4 a:hover{ border-bottom: rgb(139, 105, 63) 1px solid;}.s1{color:rgb(139, 105, 63); font-size: 17px;}
+.s2{ display: flex; margin-top: 5px; color:rgb(139, 105, 63); font-size: 11px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.s3{ color:rgb(139, 105, 63);font-size: 19px; display: flex; margin-top: 8px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+#a1{ background-color: rgb(255, 250, 243); height: 825;}
+.c5 img{ width: 900;height: 800;}
+.c6 img{ height: 700; border-radius: 10px; transition: all 0.5s ease;}
+.c6 td{ display: block; margin-left: 975; margin-top: -775; transition: all 0.5s ease;}
+.c6 p{ font-size: 22px; color:rgb(115, 87, 51); margin-left: 1rem;  transition: all 0.5s ease;}
+.c6 span{ margin-left: 0.5rem; margin-top: 0.3rem;}
+.c6 img:hover{ transform: scale(1.03);}
+.c6 a{ text-decoration: none;}
+.c6 p:hover{ transform: scale(1.05);}
+.c7 img{width: 460; height: 460; border-radius: 10px; transition: all 0.5s ease;}
+.c7 td{ padding: 2px;}
+.c7{ margin-left: 50px;}
+.c7 img:hover{ transform: scale(1.01);}
+.c7 a{text-decoration: none; color:rgb(115, 87, 51);}
+.c7 p{ font-size: 20px; margin-left: 1rem; transition: all 0.5s ease;margin-top: 10px; margin-bottom: 10;}
+.c7 span{ margin-left: 0.5rem;  margin-top: 0.3rem;}
+.c7 p:hover{ transform: scale(1.05);}
+#a2{ background-color: rgb(255, 250, 243);}
+#a3{ width: 100%; height: 150%; background-color: rgb(255, 250, 243);}
+.c9{ margin-left: 270;}
+.c10{ margin-top: 600; width: 900;  font-size: 28; color:rgb(109, 82, 50);}
+.c11{ padding: 10px;}
+.c11 input{ padding: 10px; width: 100%; height: 90%;border:rgb(139, 105, 63) 3px solid; border-radius: 10px; font-size: 18; background-color: rgb(255, 250, 243);}
+.c11 ::-webkit-input-placeholder{ color:rgb(139, 105, 63);}
+.c12{ padding: 10px;}
+.c12 input{ padding: 10px;width: 100%;height: 150;border:rgb(139, 105, 63) 3px solid;border-radius: 10px; color:rgb(139, 105, 63); font-size: 18; padding-bottom: 100; background-color: rgb(255, 250, 243);}
+.c13 a{ text-decoration: none; color:rgb(255, 255, 255); border:rgb(109, 82, 50) 3px solid; border-radius: 10px; background-color: rgb(109, 82, 50);padding: 10px; display: block;width: 100; text-align: center;font-size: 18px; transition: all 0.5s ease; margin-top: 15px;}
+.c13 input{ background-color: rgb(109, 82, 50); color:rgb(139, 105, 63); }
+.c13 { padding: 10px;}
+.c13 a:hover{ transform: scale(1.03);}
+.c14{ list-style-type: none; padding: 30; padding-top: 10px; width: 20%;}
+.c14 a{ text-decoration: none; font-size: 18px; margin-left: 20;color: rgb(230, 227, 222); font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.c14 li{width: 220; height: 40;}
+.c14 a:hover{ border-bottom: #fff 1px solid;}
+.quick{ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(230, 227, 222); padding-top: 30px; padding-left: 40; font-weight: 500;}
+.gioithieu{ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 25px; color: rgb(230, 227, 222); margin-bottom: 20; text-align: left;  margin-left: 10;}
+.c15{ width: 32%; margin-top: -345;margin-left: 550;}
+.c15 td{ color: rgb(230, 227, 222);font-size: 20px; text-align: left; padding: 10; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.ttlh{ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 25px; color: rgb(230, 227, 222); margin-bottom: 20; text-align: left; margin-left: 10;}
+.c16{ width: 32%; margin-top: -335; margin-left: 1025;}
+.c16 td{ color: rgb(230, 227, 222); font-size: 20px; text-align: left; padding: 10; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}

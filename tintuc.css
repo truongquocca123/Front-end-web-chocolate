@@ -1,0 +1,543 @@
+header{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    align-items: center;
+    display: flex;
+    z-index: 1000;
+    top: 34;
+}
+nav{
+    background-color: white;
+    width: 100%;
+    height: 5%;
+    color:rgb(6, 6, 6);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    border-bottom:rgb(209, 189, 164) 1px solid;
+    z-index: 1000;
+    top: 170;
+}
+aside{
+    height: 35%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    position: relative;
+}
+article{
+    height: 70%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+footer{
+    height: 70%;
+    width: 100%;
+    background-color: rgba(207, 124, 88, 1);
+    margin-top: -30;
+}
+.searching{
+    color: rgb(148, 122, 88);
+    margin-top: 20px; 
+    margin-right: 520px;
+    display: block;
+    transition: all 0.1s ease;
+    margin-left: 60px;
+    font-size: 20px;
+    margin-right: 595px;
+}
+.searching:hover{
+    transform: scale(1.1);
+}
+.vnd{
+    color: rgb(148, 122, 88);
+    font-size: 17px;
+    margin-left: 290px;
+}
+.tv{
+    color: rgb(148, 122, 88);
+    font-size: 17px;
+    margin-left: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.tv a{
+    padding: 16px;
+    text-decoration: none;
+    color: rgb(148, 122, 88);
+}
+.tv1{
+    list-style-type: none;
+    padding: 10px;
+}
+.tv1 a{
+    padding: 16px;
+    text-decoration: none;
+    color: azure;
+}
+.tv1 li{
+    position: relative;
+    padding: 6.75px;
+}
+.tv1 a:hover{
+    color: rgb(231, 179, 226);
+    border: pink 1px solid;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.tv1 li:hover .tv{
+    display: block;
+}
+.language{
+    margin-left: 20px;
+    border: rgb(148, 122, 88) 2px solid;
+    color: rgb(148, 122, 88);
+    padding: 10px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: none;
+    display: block;
+}
+.shopping{
+    color: rgb(148, 122, 88);
+    display: block;
+    transition: all 0.1s ease;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.shopping a{
+    color: rgb(148, 122, 88);
+}
+.shopping:hover{
+    transform: scale(1.1);
+}
+.logo{
+    width: 110px;
+    height: 80px;
+    margin-left: 33px;
+}
+.slogan{
+    text-align: center;
+    margin-left: 675px;
+    margin-top: -22px;
+    color:rgb(139, 105, 63);
+}
+.sloganhd{
+    height: 5%;
+    top: 137;
+}
+.lologan1{
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.slogan2{
+    font-size: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(139, 105, 63);
+    top: 50px;
+    display: block;
+    margin-left: 5px;
+}
+.loichuc{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    background-color: rgba(207, 124, 88, 1);
+    height: 5%;
+    top: 0;
+}
+.loichuc span{
+    margin-left: 540px;
+    padding: 10;
+}
+.c1{
+    display: flex;
+    list-style-type: none;
+    font-size: 17px;
+}
+.c1 a{
+    padding: 30px;
+    text-decoration: none;
+    color:rgb(139, 105, 63);
+    transition: all 0.5s ease;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.c1 a:hover{
+    color: rgb(243, 189, 151);
+}
+.c1 li:hover .d1{
+    display: block;
+}
+.d1{
+    display: none;
+    padding: 5px;
+    position: absolute;
+    list-style-type: none;
+    top: 228;
+    border:rgb(139, 105, 63) 1px solid;
+    border-radius: 5px;
+    background-color: white;
+}
+.d1 li{
+    background-color: white;
+    width: 230;
+    height: 30;
+    text-align: left;
+}
+.d1 a{
+    color:rgb(139, 105, 63);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16;
+    transition: all 0.5s ease;
+}
+.d1 a:hover{
+    color: rgb(243, 189, 151);
+}
+.font-mid{
+    text-align: center;
+    margin-top: 50px;
+}
+.font-mid span{
+    font-size: 50px;
+    font-weight: 500;
+    color:rgb(109, 82, 50);
+    margin-top: 300;
+    display: block;
+}
+.font-mid div{
+    margin-top: 10;
+    font-weight: 500;
+    font-size: 15;
+    color:rgb(139, 105, 63);
+}
+.c30{
+    list-style-type: none;
+    padding: 30;
+    padding-top: 10px;
+    width: 20%;
+}
+.c30 a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20;
+    color: rgb(230, 227, 222);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.c30 li{
+    width: 220;
+    height: 40;
+}
+.c30 a:hover{
+    border-bottom: #fff 1px solid;
+}
+.quick{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(230, 227, 222);
+    padding-top: 30px;
+    padding-left: 40;
+    font-weight: 500;
+}
+.gioithieu{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: rgb(230, 227, 222);
+    margin-bottom: 20;
+    text-align: left;
+    margin-left: 10;
+}
+.c31{
+    width: 32%;
+    margin-top: -345;
+    margin-left: 550;
+}
+.c31 td{
+    color: rgb(230, 227, 222);
+    font-size: 20px;
+    text-align: left;
+    padding: 10;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ttlh{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: rgb(230, 227, 222);
+    margin-bottom: 20;
+    text-align: left;
+    margin-left: 10;
+}
+.c32{
+    width: 32%;
+    margin-top: -335;
+    margin-left: 1025;
+}
+.c32 td{
+    color: rgb(230, 227, 222);
+    font-size: 20px;
+    text-align: left;
+    padding: 10;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#a2{
+    height: 430%;
+    width: 100%;
+}
+.c2{
+    text-align:center;
+    position: relative;
+    display: block;
+    top: 50;
+    font-size: 30;
+    width: 500;
+    margin-left: 515;
+    font-weight: 500;
+    color:rgb(139, 105, 63);  
+    display: block; 
+}
+.c3{
+    color:rgb(139, 105, 63); 
+    width: 200;
+    font-size: 35px;
+    margin-left: 50;
+    position: relative;
+    display: block;
+    font-weight: 500;
+    margin-bottom: -130;
+    margin-top: 130;
+}
+.c4{
+    margin-top: 150;
+    display: block;
+    width: 700;
+    height: 625;
+    border-radius: 10px;
+    margin-left: 45px;  
+    background-color: rgba(207, 124, 88, 1);
+    overflow: hidden;
+    float: left;
+}
+.c4 td{ 
+    display: block;
+    text-align: center;
+}
+.c5 img{
+    border-radius: 10px;
+    width: 700;
+    transition: all 0.5s ease;
+    display: block;
+    margin-top: -5;
+    margin-left: -3;
+}
+.c5 img:hover{
+    transform: scale(1.02);
+}
+
+.c5 a{
+    text-decoration: none;
+    color:rgb(240, 235, 235);  
+}
+.c5 a:hover{
+    border-bottom: white 2px solid;
+}
+.c6{
+    font-size: 25px;
+}
+.c7{
+    font-size: 10;
+    display: flex;
+    margin-left: 310;
+}
+.c8{
+    font-size: 18;
+    display: flex;
+    margin-top: -10;
+}
+.c9{
+    display: block;
+    width: 700;
+    height: 625;
+    border-radius: 10px;
+    background-color: rgba(207, 124, 88, 1);
+    overflow: hidden;
+    float: left;
+    margin-top: 150;
+    margin-left: 15;
+}
+.c9 td{ 
+    display: block;
+    text-align: center;
+}
+.c10 img{
+    border-radius: 10px;
+    width: 700;
+    height: 466;
+    transition: all 0.5s ease;
+    display: block;
+    margin-top: -5;
+    margin-left: -3;
+}
+.c10 img:hover{
+    transform: scale(1.02);
+}
+
+.c10 a{
+    text-decoration: none;
+    color:rgb(240, 235, 235);  
+}
+.c10 a:hover{
+    border-bottom: white 2px solid;
+}
+.c11{
+    display: block;
+    width: 1415;
+    height: 700;
+    border-radius: 10px;
+    background-color: rgba(207, 124, 88, 1);
+    overflow: hidden;
+    float: left;
+    margin-top: 15;
+    margin-left: 45;
+}
+.c11 td{ 
+    display: block;
+    text-align: center;
+}
+.c12 img{
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    display: block;
+    margin-top: -5;
+    margin-left: -3;
+    width: 1415;
+    margin-top: -400;
+    height: 930;
+}
+.c12 img:hover{
+    transform: scale(1.02);
+}
+
+.c12 a{
+    text-decoration: none;
+    color:rgb(240, 235, 235);  
+}
+.c12 a:hover{
+    border-bottom: white 2px solid;
+}
+.c13{
+    font-size: 30px;
+}
+.c14{
+    font-size: 10;
+    display: flex;
+    margin-left: 46%;
+}
+.c15{
+    font-size: 21;
+    display: flex;
+    margin-top: -10;
+    width: 70%;
+    margin-left: 200;
+}
+.c16{
+    display: block;
+    width: 700;
+    height: 625;
+    border-radius: 10px;
+    background-color: rgba(207, 124, 88, 1);
+    overflow: hidden;
+    float: left;
+    margin-top: 15;
+    margin-left: 45;
+}
+.c16 td{ 
+    display: block;
+    text-align: center;
+}
+.c17 img{
+    border-radius: 10px;
+    width: 700;
+    height: 466;
+    transition: all 0.5s ease;
+    display: block;
+    margin-top: -11;
+    margin-left: -11.5;
+    margin-bottom: -9;
+}
+.c17 img:hover{
+    transform: scale(1.02);
+}
+
+.c17 a{
+    text-decoration: none;
+    color:rgb(240, 235, 235);  
+}
+.c17 a:hover{
+    border-bottom: white 2px solid;
+}
+.c20{
+    font-size: 18;
+    display: flex;
+    margin-top: -16;
+}
+.c21{
+    font-size: 25px;
+    margin-top: -10;
+}
+.c18{
+    display: block;
+    width: 700;
+    height: 625;
+    border-radius: 10px;
+    background-color: rgba(207, 124, 88, 1);
+    overflow: hidden;
+    float: left;
+    margin-top: 15;
+    margin-left: 15;
+}
+.c18 td{ 
+    display: block;
+    text-align: center;
+}
+.c19 img{
+    border-radius: 10px;
+    width: 700;
+    height: 563;
+    transition: all 0.5s ease;
+    display: block;
+    margin-top: -100;
+    margin-left: -3;
+}
+.c19 img:hover{
+    transform: scale(1.02);
+}
+
+.c19 a{
+    text-decoration: none;
+    color:rgb(240, 235, 235);  
+}
+.c19 a:hover{
+    border-bottom: white 2px solid;
+}
+.pagination__item {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 4.4rem;
+    width: 45;
+    padding: 0;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(148, 122, 88);
+    margin-top: 30;
+    transition: all 0.5s ease;
+}
+.pagination__item:hover{
+    color:rgb(60, 46, 29);
+    transform: scale(1.1);
+}
+.d2{
+    display: block;
+    margin-left: 645;
+}

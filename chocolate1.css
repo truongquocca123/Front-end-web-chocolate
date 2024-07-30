@@ -1,0 +1,77 @@
+header{height: 15%; width: 100%; background-color: rgb(255, 255, 255); color: black; align-items: center; display: flex; z-index: 1000; top: 35;}
+nav{background-color: white; width: 100%; height: 5%; color:rgb(6, 6, 6); text-align: center; align-items: center; display: flex; border-bottom:rgb(209, 189, 164) 1px solid; z-index: 1000; top: 180;}
+aside{height: 35%; width: 100%; background-color: rgb(255, 255, 255); color: black; position: relative;}
+article{height: 70%; width: 100%; background-color: rgb(255, 255, 255); color: black;}
+footer{height: 70%; width: 100%; background-color: rgba(207, 124, 88, 1); margin-top: -30;}
+.searching{color: rgb(148, 122, 88); margin-top: 20px; margin-right: 520px; display: block; transition: all 0.1s ease; margin-left: 60px; font-size: 20px; margin-right: 595px;}
+.searching:hover{transform: scale(1.1);}
+.vnd{color: rgb(148, 122, 88); font-size: 17px; margin-left: 290px;}
+.tv{color: rgb(148, 122, 88); font-size: 17px; margin-left: 10px; list-style-type: none; text-decoration: none;}
+.tv a{padding: 16px; text-decoration: none; color: rgb(148, 122, 88);}
+.tv1{list-style-type: none; padding: 10px;}
+.tv1 a{padding: 16px; text-decoration: none; color: azure;}
+.tv1 li{position: relative; padding: 6.75px;}
+.tv1 a:hover{ color: rgb(231, 179, 226); border: pink 1px solid; border-radius: 10px; background-color: aliceblue;}
+.tv1 li:hover .tv{ display: block;}
+.language{ margin-left: 20px; border: rgb(148, 122, 88) 2px solid; color: rgb(148, 122, 88); padding: 10px; font-size: 17px; font-family: 'Times New Roman', Times, serif; border-style: none; display: block;}
+.shopping{color: rgb(148, 122, 88); display: block; transition: all 0.1s ease; margin-left: 20px; font-size: 20px;}
+.shopping a{color: rgb(148, 122, 88);}
+.shopping:hover{ transform: scale(1.1);}
+.logo{ width: 110px; height: 80px; margin-left: 33px; margin-top: 10;}
+.slogan{ text-align: center; margin-left: 675px; margin-top: -22px; color:rgb(139, 105, 63);}
+.sloganhd{ height: 5%; top: 144;}
+.lologan1{ font-size: 18px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;}
+.slogan2{ font-size: 10px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color:rgb(139, 105, 63); top: 50px; display: block; margin-left: 5px}
+.loichuc{ color: rgb(255, 255, 255); font-size: 17px; background-color: rgba(207, 124, 88, 1); height: 5%; top: 0; }
+.loichuc span{ margin-left: 510px; padding: 10;}
+.c1{ display: flex; list-style-type: none; font-size: 17px;}
+.c1 a{ padding: 30px; text-decoration: none; color:rgb(139, 105, 63); transition: all 0.5s ease; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.c1 a:hover{ color: rgb(243, 189, 151);}
+.c1 li:hover .d1{ display: block;}
+.d1{ display: none; padding: 5px; position: absolute; list-style-type: none; top: 37; border:rgb(139, 105, 63) 1px solid; border-radius: 5px; background-color: white;}
+.d1 li{ background-color: white; width: 230; height: 30; text-align: left;}
+.d1 a{ color:rgb(139, 105, 63); font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 16; transition: all 0.5s ease;}
+.d1 a:hover{ color: rgb(243, 189, 151);}
+.font-mid{ text-align: center; margin-top: 50px;}
+.font-mid span{ font-size: 50px;font-weight: 500; color:rgb(109, 82, 50); margin-top: 300; display: block;}
+.font-mid div{ margin-top: 10; font-weight: 500;font-size: 15; color:rgb(139, 105, 63);}
+.c30{ list-style-type: none; padding: 30; padding-top: 10px; width: 20%;}
+.c30 a{ text-decoration: none; font-size: 18px; margin-left: 20; color: rgb(230, 227, 222); font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.c30 li{width: 220; height: 40;}
+.c30 a:hover{ border-bottom: #fff 1px solid;}
+.quick{ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(230, 227, 222); padding-top: 30px; padding-left: 40; font-weight: 500;}
+.gioithieu{ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 25px; color: rgb(230, 227, 222); margin-bottom: 20;  text-align: left;  margin-left: 10;}
+.c31{ width: 32%; margin-top: -345; margin-left: 550;}
+.c31 td{ color: rgb(230, 227, 222); font-size: 20px; text-align: left;  padding: 10;  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.ttlh{ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  font-size: 25px; color: rgb(230, 227, 222); margin-bottom: 20; text-align: left;margin-left: 10;}
+.c32{ width: 32%; margin-top: -335; margin-left: 1025;}
+.c32 td{ color: rgb(230, 227, 222); font-size: 20px;text-align: left; padding: 10; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+#a2{ height: 220%;}
+.c2{ width: 50%; margin-left: 300; height: 95%; display: block; float: left; margin-right: 56; margin-left: 0; margin-top: 30;}
+.sticky{ position: sticky; position: -webkit-sticky; top: -40;  padding: 80;}
+.c3{ width: 46%; height: 99%; display: block; float: left;}
+.c4{ text-align: left;}
+.c5{ font-size: 55px; color:rgb(109, 82, 50);}
+.c6{ font-size: 23px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.c7{ font-size: 15px; margin-left: 0;}
+.c7 b{ font-weight: 500;border-bottom: rgb(115, 87, 51) 1px solid;}
+.c7 b:hover{ border-bottom: rgb(115, 87, 51) 3px solid;}
+.c8{ border:rgb(139, 105, 63) 2px solid; display: block; width: 130;  text-align: center; padding: 15; border-radius: 10px; font-size: 18px; color:rgb(109, 82, 50); margin-top: 5;}
+.c8 i{ color:rgb(109, 82, 50); font-size: 15px;}
+.c9 a{ border:rgb(116, 87, 53) 2px solid; display: block; width: 400; padding: 15; border-radius: 10px; text-align: center; font-size: 18px; color:rgb(99, 75, 45); margin-top: 30; margin-left: 0; text-decoration: none;}
+.c9 a:hover{border:rgb(139, 105, 63) 3px solid;}
+.c10 a{ border:rgb(116, 87, 53) 1px solid; display: block; width: 400; padding: 15; border-radius: 10px;text-align: center;font-size: 18px; color:white; margin-top: 10; margin-left: 0;background-color: rgb(83, 59, 30);text-decoration: none;}
+.c10 a:hover{ border:rgb(139, 105, 63) 3px solid;
+}.c11{ font-size: 18px; color:rgb(99, 75, 45);}
+.c11 i{  color: rgb(77, 197, 44);}
+.c12{ font-size: 22px;color:rgb(99, 75, 45);}
+.d2{ padding: 20;}
+.d2 td{ position: relative;}
+.d2 img{ display: block; width: 325; border-radius: 10px; margin-left: 15; transition: all 0.5s ease;}
+.d2 img:hover{ transform:scale(1.02);}
+.d2 a{ text-decoration: none;}
+.d2 a:hover{ border-bottom: rgb(139, 105, 63) 1px solid;}
+.s1{ color:rgb(82, 62, 38); font-size: 17px;}
+.s2{ display: flex; margin-top: 5px; color:rgb(139, 105, 63);font-size: 11px;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.s3{color:rgb(139, 105, 63); font-size: 19px; display: flex; margin-top: 8px; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.d3 img{ margin-top: -20; margin-right:  20;}
